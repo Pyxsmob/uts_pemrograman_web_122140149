@@ -5,7 +5,6 @@ const Home = () => {
 
   return (
     <div className="text-center p-10">
-      {/* Produk Unggulan */}
       <h2 className="text-3xl font-semibold mt-10">Produk Unggulan</h2>
       {loading ? (
         <p className="text-xl font-semibold text-gray-700 mt-4">Memuat...</p>
